@@ -1,5 +1,7 @@
 # walkclock
 
+![walkclock on a desk](walkclock_on_desk.jpg)
+
 A clock that shows a map with a route that progresses day-by-day.
 
 Display is a 64x64px LED matrix, driven by an STM32H743 on a WeAct dev board.
