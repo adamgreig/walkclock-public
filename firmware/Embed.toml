@@ -1,0 +1,25 @@
+[default.general]
+chip = "STM32H743VITx"
+connect_under_reset = false
+
+[default.probe]
+speed = 20000
+
+[default.rtt]
+enabled = false
+
+[rtt.rtt]
+enabled = true
+log_enabled = true
+log_path = "target/rtt"
+
+[rttonly.rtt]
+enabled = true
+log_enabled = true
+log_path = "target/rtt"
+
+[rttonly.flashing]
+enabled = false
+
+[gdb.gdb]
+enabled = true

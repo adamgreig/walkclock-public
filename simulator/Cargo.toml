@@ -1,0 +1,17 @@
+[package]
+name = "walkclock_simulator"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.56"
+
+[dependencies]
+time = "0.3"
+embedded-graphics = "0.7"
+jpeg-decoder = "0.2.1"
+
+[dependencies.embedded-graphics-simulator]
+version = "0.3"
+path = "../../embedded-graphics-simulator"
+
+[dependencies.walkclock]
+path = ".."
